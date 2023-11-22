@@ -1,7 +1,9 @@
 
-*{
-    background-color:rgba;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 .ul{
     justify-content: center;
 }
@@ -23,8 +25,17 @@
     align-items: center
 }
 
-.certificate-image:hover {
+.certificate-images:hover {
     position: absolute;
     z-index: 1;
     transform: scale(2.5)
 }
+
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .col-4 {width: 33.33%;}
+  }
+ 
